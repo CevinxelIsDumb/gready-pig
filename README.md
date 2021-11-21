@@ -1,2 +1,2 @@
-# guess-my-number
+# gready-pig
 Don’t you dare
