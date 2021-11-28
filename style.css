@@ -2,4 +2,12 @@
 body {
     font-family: 'Amatic SC', cursive;
     font-weight: 400;
+    height: 100vh;
+    color:#fff;
+    background-image: linear-gradient(to top left, blue, purple, red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
