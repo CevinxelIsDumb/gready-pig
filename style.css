@@ -1,1 +1,5 @@
-import url('font-family: Comic Sans MS')
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
