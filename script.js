@@ -37,7 +37,9 @@ const startGame = () => {
 startGame();
 
 function rollTheDice(){
-
+    if (isGameRunning === true) {
+        const dice =Math.trunc(Math.random()*6) +1
+    }
 };
 
 function holdMyScore(){
