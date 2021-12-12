@@ -9,6 +9,7 @@ const player2 = document.querySelector('.player--1');
 const player1 =ducument.querySelector('.player--0');
 const buttonRoll = document.querySelector('.btn--roll');
 const buttonHold = document.querySelector('.btn--hold');
+
 //the let
 let scoreBoard = [];
 let currentScore =0;
@@ -42,6 +43,10 @@ function rollTheDice(){
 function holdMyScore(){
 
 };
+
+function switchPlayer(){
+
+};
 //the button
 
 buttonNew.addEventListener('click', function() {
@@ -56,3 +61,4 @@ buttonHold.addEventListener('click', function(){
     holdMyScore();
 
 });
+
